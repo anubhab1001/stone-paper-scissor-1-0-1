@@ -28,7 +28,7 @@ const game = (user_choice) => {
         }
         else if(user_choice==="paper"&& comp_choice==="scissor"){
             comp_score++;
-            msg.innerText = `Comp wins! and you chose ${user_choice} and comp chose${comp_choice}`;
+            msg.innerText = `Comp wins! and you chose ${user_choice} and comp chose ${comp_choice}`;
             compScorePara.innerText = comp_score;
             }
             else if(user_choice==="scissor"&& comp_choice==="paper"){
